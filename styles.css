@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#progress-bar-outline {
+    width: 300px;
+    height: 30px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 0px 5px;
+    border-radius: 4px;
+    display: flex;
+    align-content: center;
+}
+
+#progress-bar-fill {
+    margin: auto 0;
+    background-color: red;
+    width: 0;
+    height: 20px;
+    z-index: -100;
+}
